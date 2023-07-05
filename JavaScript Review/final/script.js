@@ -172,6 +172,8 @@ const updatedBook = {...book, moviePublicationDate: "2001-12-19", pages: 1210};
 console.log(updatedBook);
 
 
+
+
 /*
 const book = getBook(3);
 book;
