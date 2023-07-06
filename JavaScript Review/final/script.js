@@ -145,7 +145,7 @@ function getBook(id) {
 
 // Destructuring
 
-const book = getBook(1);
+const book = getBook(2);
 
 //const title = book.title;
 //const author = book.author;
@@ -170,6 +170,13 @@ console.log(newGenres);
 const updatedBook = {...book, moviePublicationDate: "2001-12-19", pages: 1210};
 
 console.log(updatedBook);
+
+const summary = `${title} is a ${pages} book, was written by ${author} and published in ${publicationDate.split}`
+
+const pagesRange = pages > 1000 ? "over a thousand" : "less than 1000";
+
+pagesRange
+
 
 
 
